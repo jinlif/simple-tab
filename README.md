@@ -1,6 +1,7 @@
 # chrome-tab-extension
 
 这是一个精简的新建标签页，通过该扩展可以创建常用地址快捷访问，点击快捷地址时，默认会在当前标签页的左侧去打开对应地址，这样让我们的标签页默认处于最后一个标签，便于找到
+![img](https://raw.githubusercontent.com/jinlif/simple-tab/refs/heads/main/ReadmeImg/image.png)
 
 ## 功能
 
