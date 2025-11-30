@@ -1,0 +1,26 @@
+{
+  "name": "jinli_simple_tab",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^1.10.0",
+    "chart.js": "^4.5.0",
+    "core-js": "^3.8.3",
+    "dayjs": "^1.11.13",
+    "element-plus": "^2.10.2",
+    "linkedom": "^0.18.12",
+    "lodash-es": "^4.17.21",
+    "vue": "^3.2.13",
+    "vue-router": "^4.5.1",
+    "vuex": "^4.1.0",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "~5.0.0"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "__JINLIN_SimpTab__",
+  "short_name": "SimpTab",
+  "version": "1.5.5",
+  "description": "这是一个精简的新建标签页，通过该扩展可以创建常用地址快捷访问，点击快捷地址时，我们默认会在当前标签页的左侧去打开对应地址，这样让我们的标签页默认处于最后一个标签，便于找到",
+  "author": "Jinl",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; img-src 'self' https://* http://*"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*/*", "http://*/*"],
+      "js": ["js/app.js"]
+    }
+  ],
+  "host_permissions": ["<all_urls>"],
+  "permissions": ["storage", "tabs"],
+  "commands": {}
+}
